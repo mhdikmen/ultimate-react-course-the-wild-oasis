@@ -33,7 +33,6 @@ export function useBookings() {
   });
 
   //PRE-FETCHING
-
   const pageCount = Math.ceil(count / PAGE_SIZE);
 
   if (page < pageCount)
